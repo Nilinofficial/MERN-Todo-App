@@ -1,0 +1,33 @@
+.todos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.todo {
+    background: lightseagreen;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.todo_details{
+    display: flex;
+    flex-direction: column;
+  
+    width: 80%;
+    flex-wrap: wrap;
+}
+.todo_options{
+    display: flex;
+    align-items: center;
+}
+
+.todo_options button {
+ height: 20px;
+ width: 50px;
+ margin: 3px;
+ border: none;
+ outline: none;
+}
